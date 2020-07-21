@@ -1,0 +1,178 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+
+/* Headers */
+
+.big-header {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 2.5rem;
+}
+
+.nav-item {
+    padding: 0px 0px 0px 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+/* Title */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+#iphone-img {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width: 1028px) {
+
+    #iphone-img {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #title {
+        text-align: center;
+    }
+
+}
+
+
+/* Features */
+
+#features {
+    position: relative;
+}
+
+.feature-row {
+    padding-top: 5rem;
+}
+
+.feature-column{
+    padding-bottom: 4rem;
+}
+
+.feature-icon {
+    padding-bottom: 1rem;
+    color: #ef8172;
+}
+
+.feature-icon:hover {
+    color: #eb4559;
+}
+
+.feature-title {
+    font-weight: 800;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    font-weight: 500;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Press */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.price-header {
+    font-weight: 500;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.pricing-cost {
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Call to action */
+
+
+/* Footer */
+
+.footer-icons {
+    margin: 2% 1% 2%; 
+}
